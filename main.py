@@ -10,6 +10,7 @@ def make_cipher(text, shift):
             result += char
     return result
 
-string = input("What would you like to decipher? (this is a shift cipher, at shift 100)")
-make_cipher(string, 100)
-print (make_cipher(string, 100))
+
+string = input("What would you like to decipher? (this is a shift cipher, at shift 1)")
+make_cipher(string, 1)
+print (make_cipher(string, 1))
